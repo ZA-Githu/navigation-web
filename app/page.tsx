@@ -1,7 +1,7 @@
-"use client"
+"use client";
+
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
-import { Router } from 'next/router';
 
 const Home = () => {
     const navigationItems = [
@@ -15,9 +15,9 @@ const Home = () => {
         <div className={styles.container}>
             <h1 className={styles.heading}>Welcome to the Navigation Home Page</h1>
             <div className={styles.navLinks}>
-                {navigationItems.map(item => (
-                    <Link href={item.path} key={item.path}>
-                        <button className={styles.button}>{item.name}</button>
+                {navigationItems.map((item) => (
+                    <Link href={item.path} key={item.path} className={styles.button}>
+                        {item.name}
                     </Link>
                 ))}
             </div>
