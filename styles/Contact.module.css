@@ -1,0 +1,32 @@
+/* styles/Contact.module.css */
+
+.container {
+    min-height: 100vh;
+    background-image: url('/images/background-contact.jpg'); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact a {
+    color: #fbbf24; /* Tailwind yellow */
+    text-decoration: underline;
+}
+
+.contact a:hover {
+    color: #f59e0b; /* Darker yellow on hover */
+}

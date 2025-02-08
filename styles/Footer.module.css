@@ -1,0 +1,28 @@
+/* styles/Footer.module.css */
+
+.container {
+    min-height: 100vh;
+    background-image: url('/images/background-footer.jpg'); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.link {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #2563eb;
+}

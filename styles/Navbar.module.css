@@ -1,0 +1,29 @@
+/* styles/Navbar.module.css */
+
+.container {
+    min-height: 100vh;
+    background-image: url('/images/background-navbar.jpg'); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.link {
+    color: #60a5fa;
+    font-size: 1.25rem;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #3b82f6;
+}

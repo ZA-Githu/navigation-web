@@ -1,0 +1,41 @@
+/* styles/Home.module.css */
+
+.container {
+    min-height: 100vh;
+    background-image: url('/images/background-home.jpg');/* Correct path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.navLinks {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.button {
+    background-color: #2563eb;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #1d4ed8;
+}
